@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    background-color: #e2e7e6;
+}
+/* nav bar starts here */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+/* amazon icon */
+.nav_logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border :hover{
+    border: 2px solid white;
+}
+/* map location css */
+.addresses1{
+    font-size: 12px;
+    color: #cccccc;
+    margin-left:15px ;
+}
+.addresses2{
+    font-size: 14px;
+    color: white;
+    margin-left: 3px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.add_icon{
+    display: flex;
+    /* align-items: center; */
+}
+
+/* search bar css */
+.nav_search{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    /* background-color: pink; */
+
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav_search:hover{
+    border: 2px solid orange;
+}
+.selectbox{
+    background-attachment: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.inputbox{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    background-color:rgba(255, 182, 74, 0.659) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+.search_icon :hover{
+    
+    background-color: orange;
+}
+/* accounts and list css */
+.hello_text{
+    font-size: 12px;
+}
+.account_list_text{
+    display: flex;
+    font-weight: 700;
+}
+.arrow_icon{
+    font-size: 14px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+/* returns and orders css */
+.returns{
+    font-size: 12px;
+}
+.orders{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* cart option css */
+.cart{
+    display: flex;
+}
+.cart_icon{
+    font-size: 30px;
+}
+.cart_text{
+    font-size: 14px;
+    padding-left: 2px;
+    padding-top: 15px;
+    font-weight: 700;
+} 
+/* nav bar ends here */
+
+/* panel starts here */
+.panel{
+    height: 39px;
+    background-color: #232f3e;
+    display: flex;
+    color:white;
+    align-items: center;
+    /* padding-left: 10px; */
+    justify-content: space-evenly;
+
+}
+.panel-opps a{
+    display: inline;
+    padding-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+.panel-opps a:active{
+    color: red;
+}
+.panel-opps{
+    width: 80%;
+}
+.panel-deals a{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+.panel-deals a:active{
+    color: red;
+}
+
+/* header ends here */
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-text{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    width: 95%;
+    margin-bottom: 50px;
+}
+.hero-text a{
+    color: #007185;
+    font-size: 14px;
+    text-decoration: none;
+}
+.hero-text a:active{
+    color: red;
+}
+
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.box{
+    height: 400px;
+    /* border: 2px solid black; */
+    width: 23%;
+    background-color: white;
+    /* margin: 20px;  is one option for giving space */
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+
+}
+.box-image{
+    height: 300px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* width: 80%; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box-content p{
+    color: #007185;
+}
+.box-content p:active{
+    color: red;
+}
+.sin-in-section{
+    height: 165px;
+    background-color: white;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.sin-in-content{
+    height: 125px;
+    padding: 0 20px;
+    /* margin-top: 40px; */
+    /* margin-bottom: 20px; */
+    border-top: 0.1px solid #232f3e;
+    border-bottom: 0.1px solid #232f3e;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.sin-in-title{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 14px;
+     padding-bottom: 5px;
+}
+.sin-in-content span{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    padding-bottom: 5px;
+
+}
+.sin-in-content span button{
+    width: 230px;
+    height: 28px;
+    background-color: orange;
+    border-radius: 4px;
+    border: none;
+
+}
+.sin-in-extra-text{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 12px;
+     padding-bottom: 5px;
+
+}
+.sin-in-extra-text a{
+    color: #007185;
+    text-decoration: none;
+}
+.sin-in-extra-text a:hover{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sin-in-content span button:hover{
+    border: 2px solid black;
+}
+.sin-in-extra-text a:active{
+    color: red;
+}
+.back-top{
+    height: 45px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-top a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
